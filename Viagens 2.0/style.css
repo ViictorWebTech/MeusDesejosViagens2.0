@@ -1,0 +1,165 @@
+body {
+  background: rgb(225,224,232);
+  background: linear-gradient(90deg, rgba(225, 224, 232, 1) 0%,
+   rgba(185, 182, 182, 1) 35%, 
+   rgba(102, 102, 102, 1) 70%,
+    rgba(50, 50, 50, 1) 100%);
+  padding: 10px;
+}
+
+
+nav ul {
+  align-items: center;
+  list-style: none;
+}
+
+p {
+  text-indent: 4vw;
+  font-size: 2vh;
+  line-height: 4vh;
+}
+
+#comeco {
+  font-family: 'Playfair Display', serif;
+
+  text-align: center;
+
+}
+
+.sub {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.7vw;
+
+  text-align: center;
+
+}
+
+.intro {
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.apresen {
+
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+
+}
+
+
+
+h4,
+.intro,
+.lug {
+  padding: 20px;
+  border-top: 1px solid #666;
+  margin-top: 20px;
+}
+
+
+
+h1 {
+  font-size: 4vh;
+}
+
+h3 {
+  font-size: 2.3vw;
+  text-align: center;
+}
+
+img {
+  margin-left: 25px;
+  float: right;
+  border-radius: 14px;
+  border: 3px solid rgb(15, 194, 218);
+  width: 17vw;
+
+}
+
+img:hover {
+  background: transparent;
+  color: rgb(15, 194, 218);
+  border: 2px solid #00ffcb;
+}
+
+
+.peque {
+  font-size: 1.5vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lug {
+  text-align: center;
+}
+
+a.link {
+  font-weight: bold;
+  color: rgb(15, 194, 218);
+}
+
+a.link:visited {
+  color: rgb(69, 161, 134);
+}
+
+.botao{
+
+  border-top: 1px solid #666;
+  text-align: center;
+  padding-top: 20px;
+}
+.btn {
+  padding: 10px;
+  user-select: none;
+  background: transparent;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 23px;
+  border: none;
+  border-radius: 1000px;
+  box-shadow: inset 0 0 20px #000;
+
+  color: rgb(15, 194, 218);
+}
+
+.btn:hover {
+  background: transparent;
+  color: #000;
+  box-shadow: 0 0 60px rgba(0, 255, 203, 0.64);
+  cursor: grab;
+  border: 2px solid #00ffcb;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+a.link {
+  color: rgb(15, 194, 218);
+}
+
+a.link:visited {
+  color: rgb(69, 161, 134);
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 255, 203, 0.64);
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 225, 255);
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: slateblue;
+  color: rgb(15, 194, 218);
+  transform: scale(0.1) rotate(360deg);
+  box-shadow: 0 0 100px rgb(15, 194, 218);
+  cursor: grab;
+  border: 2px solid #00ffcb;
+}
